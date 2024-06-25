@@ -1,301 +1,293 @@
 :root {
-    --bg-color: rgb(230, 245, 255);  /* Light blue background */
-    --main-color: rgb(30, 30, 60);     /* Dark blue text */
-    --btn-color: rgb(50, 100, 150);   /* Medium blue for buttons */
-  }
+  --bg-color: rgb(230, 245, 255); /* Light blue background */
+  --main-color: rgb(30, 30, 60); /* Dark blue text */
+  --btn-color: rgb(50, 100, 150); /* Medium blue for buttons */
+}
 * {
-    font-family: 'Montserrat', sans-serif;
-
-    
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-    background-color: var(--bg-color);
+  background-color: var(--bg-color);
 }
-
 
 /*
     Header 
 */
 
-
 .header {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    align-items:end;
-    font-family: 'Montserrat', sans-serif;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: end;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header h1 {
-    font-size: 48px;
-    padding: 0 20px;
-    color: var(--main-color);
-    margin: 0;
+  font-size: 48px;
+  padding: 0 20px;
+  color: var(--main-color);
+  margin: 0;
 }
 
 .Header_Logo {
-    margin-top: 40px;
-    transition: all 0.3s;
+  margin-top: 40px;
+  transition: all 0.3s;
 }
 
 .Header_Logo:hover {
-    scale: 1.1;
+  scale: 1.1;
 }
-
 
 /*
     Main 
 */
 .MainContainer {
-    width: 90%;
-    margin: auto 40px auto auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    min-height: calc(100vh - 90px - 70px);
-    align-items: end;
+  width: 90%;
+  margin: auto 40px auto auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  min-height: calc(100vh - 90px - 70px);
+  align-items: end;
 }
 /*Contenedor izquierdo del area de texto*/
 .LeftContainer {
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .TextArea {
-    width: 90%;
-    font-size: 32px;
-    color: var(--main-color);
-    background: none;
-    border: none;
-    outline:none;
-    resize: none;
+  width: 90%;
+  font-size: 32px;
+  color: var(--main-color);
+  background: none;
+  border: none;
+  outline: none;
+  resize: none;
 }
 .TextArea::placeholder {
-    color: rgba(29, 55, 255, 0.8);
+  color: rgba(29, 55, 255, 0.8);
 }
 
 .Exclamation {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .Exclamation * {
-    padding: 0 2px;
+  padding: 0 2px;
 }
 
 .Exclamation p {
-    color: #5a7a9a;
-    font-size: 12px;
+  color: #5a7a9a;
+  font-size: 12px;
 }
 
 .Buttons {
-    display: flex;
-    gap: 24px;
-    margin-top: 16px;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .Buttons * {
-    max-width: 328px;
-    width: 40%;
-    height: 47px;
-    border-radius: 24px;
-    cursor: pointer;
+  max-width: 328px;
+  width: 40%;
+  height: 47px;
+  border-radius: 24px;
+  cursor: pointer;
 
-    font-size: 16px;
-    transition: all 0.3s;
+  font-size: 16px;
+  transition: all 0.3s;
 }
 .Buttons *:hover {
-    scale: 1.1;
+  scale: 1.1;
 }
 .Buttons *:active {
-    scale: 1.05;
+  scale: 1.05;
 }
 .EncriptarBtn {
-    background-color: var(--btn-color);
-    color: white;
-    border: 1px solid var(--btn-color);
+  background-color: var(--btn-color);
+  color: white;
+  border: 1px solid var(--btn-color);
 }
 .EncriptarBtn:hover {
-    background-color: var(--bg-color);
-    color: var(--btn-color);
+  background-color: var(--bg-color);
+  color: var(--btn-color);
 }
 .EncriptarBtn:active {
-    background-color: var(--main-color);
-    color: white;
+  background-color: var(--main-color);
+  color: white;
 }
 
 .DesencriptarBtn {
-    background-color: var(--bg-color);
-    color: var(--main-color);
-    border: 1px solid var(--btn-color);
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  border: 1px solid var(--btn-color);
 }
 .DesencriptarBtn:hover {
-    background-color: antiquewhite;
-    color: var(--main-color);
+  background-color: antiquewhite;
+  color: var(--main-color);
 }
 .DesencriptarBtn:active {
-    background-color: var(--main-color);
-    color: white;
+  background-color: var(--main-color);
+  color: white;
 }
 
 /*Contenedor derecho del output*/
-.RightContainer {   
-    background-color: white;
-    height: calc(100% + 50px);
-    border-radius: 32px;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+.RightContainer {
+  background-color: white;
+  height: calc(100% + 50px);
+  border-radius: 32px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 
-    padding: 32px;
-    box-sizing: border-box;
+  padding: 32px;
+  box-sizing: border-box;
 }
 
 .RightContainer.Fixed {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .FinalText {
-    text-align: center;
-    font-weight: bold;
-    font-size: 24px;
-    background: none;
-    border: none;
-    resize: none;
-    outline: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  background: none;
+  border: none;
+  resize: none;
+  outline: none;
 }
 
 .FinalText.Fixed {
-    height: 70%;
-    font-weight: 400;
-    text-align: left;
+  height: 70%;
+  font-weight: 400;
+  text-align: left;
 }
 
 .RightInfo {
-    text-align: center;
-    font-size: 16px;
-    color: #495057;
+  text-align: center;
+  font-size: 16px;
+  color: #495057;
 }
 
 .CopyBtn {
-    max-width: 328px;
-    width: 100%;
-    height: 47px;
-    border-radius: 24px;
-    cursor: pointer;
+  max-width: 328px;
+  width: 100%;
+  height: 47px;
+  border-radius: 24px;
+  cursor: pointer;
 
-    font-size: 16px;
-    background-color: transparent;
-    color: var(--btn-color);
-    border: 1px solid var(--btn-color);
+  font-size: 16px;
+  background-color: transparent;
+  color: var(--btn-color);
+  border: 1px solid var(--btn-color);
 
-    transition: all 0.3s;
+  transition: all 0.3s;
 }
 .CopyBtn:hover {
-    background-color: antiquewhite;
-    color: var(--main-color);
-    scale: 1.1;
+  background-color: antiquewhite;
+  color: var(--main-color);
+  scale: 1.1;
 }
 .CopyBtn:active {
-    background-color: var(--main-color);
-    color: white;
-    scale: 1.05;
+  background-color: var(--main-color);
+  color: white;
+  scale: 1.05;
 }
 
 .Hidden {
-    display: none;
+  display: none;
 }
 
-.Persona {
-    width: 100%;
+.Doll {
+  width: 100%;
 }
 
 footer {
-    width: 100%;
-    background-color: var(--main-color);
-    margin-top: 50px;
-    font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  background-color: var(--main-color);
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
 }
 .Footer {
-    width: 80%;
-    margin: auto;
-    height: 70px;
-    background-color: var(--main-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 16px;
-
+  width: 80%;
+  margin: auto;
+  height: 70px;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
 }
 
-.Footer *{
-    margin: 0 10px;
+.Footer * {
+  margin: 0 10px;
 }
 
-.Footer a{
-        font-size:24px;
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: #cccccc;
+.Footer a {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #cccccc;
 
-        transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .Footer a:hover {
-    color: white;
-    scale: 1.1;
+  color: white;
+  scale: 1.1;
 }
 
 .Footer a:active {
-    color: var(--bg-color);
-    scale: 1.05;
+  color: var(--bg-color);
+  scale: 1.05;
 }
 
 .Footer img {
-    width: 50px;
-
+  width: 50px;
 }
-
 
 @media screen and (max-width: 768px) {
-    .MainContainer {
-        grid-template-columns: 1fr;
-        grid-template-rows: 75% auto;
-        width: auto;
-        margin: auto 40px;
-    }
-    .LeftContainer {
-        margin-bottom: 20px;
-    }
-    .RightContainer {
-        height: 100%;
-    }
-    .Persona {
-        display: none;
-    }
+  .MainContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 75% auto;
+    width: auto;
+    margin: auto 40px;
+  }
+  .LeftContainer {
+    margin-bottom: 20px;
+  }
+  .RightContainer {
+    height: 100%;
+  }
+  .Doll {
+    display: none;
+  }
 
-    .Buttons *{
-        width: 45%;
-    }   
+  .Buttons * {
+    width: 45%;
+  }
 }
 
-@media screen and (max-width: 375px){
-    .MainContainer {
-        margin: auto 40px;
-        width: auto;
-    }
-    
-    .Buttons *{
-        max-width: 100%;
-        width: 100%;
-    }
+@media screen and (max-width: 375px) {
+  .MainContainer {
+    margin: auto 40px;
+    width: auto;
+  }
+
+  .Buttons * {
+    max-width: 100%;
+    width: 100%;
+  }
 }
