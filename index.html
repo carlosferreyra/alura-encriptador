@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Encriptador de Carlos F</title>
+		<link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+		<link rel="stylesheet" href="./css/normalize.css"/>
+		<link rel="stylesheet" href="./css/styles.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="header">
+				<a href="https://www.aluracursos.com" target="_blank">
+					<img class="Header_Logo" src="assets/images/logo.svg" alt="AluraLogo" />
+				</a>
+				<h1>ENCRIPTADOR</h1>
+			</div>
+		</header>
+		<main>
+			<section class="MainContainer">
+				<section class="LeftContainer">
+					<textarea
+						name="textarea"
+						class="TextArea"
+						placeholder="Ingrese texto aqui."></textarea>
+					<div class="LeftButtons">
+						<div class="Exclamation">
+							<img
+							src="assets/images/Exclamacion.png"
+							alt="Simbolo de exclamacion" />
+							<p>Solo letras minusculas y sin acento.</p>
+						</div>
+						<div class="Buttons">
+							<button onclick="" class="EncriptarBtn">Encriptar</button>
+							<button onclick="" class="DesencriptarBtn">Desencriptar</button>
+						</div>
+					</div>
+				</section>
+				<section class="RightContainer"> <!--Fixed-->
+					<img class="Persona" src="assets/images/Persona.png" alt="placeholder persona" />
+					<textarea class="FinalText" readonly placeholder="Ningun mensaje fue encontrado."></textarea>
+					<p class="RightInfo">Ingresa el texto que desees encriptar o desencriptar</p>
+					<button class="CopyBtn Hidden">Copiar</button>
+				</section>
+			</section>
+		</main>
+		<footer>
+			<div class="Footer">
+				<a href="https://www.linkedin.com/in/eduferreyraok/" target="_blank">
+					<img src="assets/images/linkedin.svg" alt="LinkedIn" /> LinkedIn
+				</a>
+				<a href="https://github.com/carlosferreyra" target="_blank">
+					<img src="assets/images/github.svg" alt="GitHub" />GitHub
+				</a>
+			</div>
+		</footer>
+		<script src="App.js"></script>
+	</body>
+</html>
