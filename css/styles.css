@@ -50,6 +50,7 @@ body {
   min-height: calc(100vh - 90px - 70px);
   align-items: end;
 }
+
 /*Contenedor izquierdo del area de texto*/
 .LeftContainer {
   height: 90%;
