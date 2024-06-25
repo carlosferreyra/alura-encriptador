@@ -4,7 +4,7 @@ const DesencriptarBtn = document.querySelector('.DesencriptarBtn');
 const FinalTxt = document.querySelector('.FinalText');
 
 const RightContainer = document.querySelector('.RightContainer');
-const Persona = document.querySelector('.Persona');
+const Doll = document.querySelector('.Doll');
 const RightInfo = document.querySelector('.RightInfo');
 const CopyBtn = document.querySelector('.CopyBtn');
 
@@ -41,7 +41,7 @@ EncriptarBtn.addEventListener("click", () => {
 
     const EncryptedTxt = Encriptar(Txt);
 
-    Persona.style.display = 'none';
+    Doll.style.display = 'none';
     RightInfo.style.display = 'none';
     CopyBtn.style.display = 'block';
     RightContainer.classList.add('Fixed');
@@ -64,7 +64,7 @@ DesencriptarBtn.addEventListener("click", () => {
 
     const DecryptedTxt = Desencriptar(Txt);
 
-    Persona.style.display = 'none';
+    Doll.style.display = 'none';
     RightInfo.style.display = 'none';
     CopyBtn.style.display = 'block';
     RightContainer.classList.add('Fixed');
