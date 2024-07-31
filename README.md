@@ -11,20 +11,30 @@ Challenge de la etapa "Principiante en Programacion" en ONE G7.
 - [Capturas de Pantalla](#capturas-de-pantalla)
   - [Navegador](#navegador)
   - [Mobile](#mobile)
+- [Acerca de mi](#acerca-de-mi)
 
 
 <!-- fin tabla contenidos -->
-
+<!-- seccion descripcion -->
 ## Descripción
-Este repositorio contiene el código fuente de la solución al reto de la etapa "Principiante en Programación" en ONE G7. La solución fue desarrollada en HTML, CSS y Javascript, y se encuentra en el archivo `index.js`.
+Este repositorio contiene el código fuente de la solución al reto de la etapa "Principiante en Programación" en ONE G7. 
+La solución fue desarrollada usando las siguientes tecnologias:
 
+Javascript (`index.js`)
+
+CSS (`styles.css`) 
+
+HTML (`index.html`).
+
+<!-- seccion requerimientos -->
 ## Requerimientos
 Puede Ejecutar la solución en cualquier navegador web moderno, como Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, etc.
 
+<!-- seccion ejecucion -->
 ## Ejecución
 Para ejecutar la solución, puede acceder al mismo desde la url de github pages [aquí](https://carlosferreyra.github.io/alura-challenge/) o clonar el repositorio y abrir el archivo `index.html` en su navegador web.
 
-<!-- menu capturas de pantalla en navegador y mobile -->
+<!-- seccion menu capturas de pantalla en navegador y mobile -->
 ## Capturas de Pantalla
 Las siguientes capturas de pantalla muestran el funcionamiento de la solución en un navegador web y en un dispositivo móvil.
 
@@ -57,3 +67,8 @@ Las siguientes capturas de pantalla muestran el funcionamiento de la solución e
 ![texto codificado](./assets/screenshots/screenshot2-mobile.png)
 
 <!-- fin capturas de pantalla -->
+
+<!-- pie de pagina -->
+
+## Acerca de mi
+Mi nombre es Carlos Ferreyra, soy un desarrollador de software apasionado por la tecnología y la programación. Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/carlosferreyra/) y [GitHub](https://github.com/carlosferreyra)
