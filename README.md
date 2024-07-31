@@ -8,8 +8,9 @@ Challenge de la etapa "Principiante en Programacion" en ONE G7.
 - [Descripción](#descripción)
 - [Requerimientos](#requerimientos)
 - [Ejecución](#ejecución)
-    - [Capturas de Pantalla en Navegador](#capturas-de-pantalla-en-navegador)
-    - [Capturas de Pantalla en Mobile](#capturas-de-pantalla-en-mobile)
+- [Capturas de Pantalla](#capturas-de-pantalla)
+  - [Navegador](#navegador)
+  - [Mobile](#mobile)
 
 
 <!-- fin tabla contenidos -->
