@@ -81,16 +81,16 @@ Las siguientes capturas de pantalla muestran el funcionamiento de la solución e
 
 #### Captura de Texto a codificar:
 
-<!-- captura mobile texto a codificar usando attr width="50%" -->
-<img src="./assets/screenshots/screenshot1-mobile.png" width="50%">
+<!-- captura mobile texto a codificar usando attr width="10%" -->
+<img src="./assets/screenshots/screenshot1-mobile.png" width="10%">
 
 
 
 
 #### Captura de Texto codificado:
 
-<!-- captura mobile texto codificado usando attr width="50%" -->
-<img src="./assets/screenshots/screenshot2-mobile.png" width="50%">
+<!-- captura mobile texto codificado usando attr width="10%" -->
+<img src="./assets/screenshots/screenshot2-mobile.png" width="10%">
 
 <!-- fin capturas de pantalla -->
 
