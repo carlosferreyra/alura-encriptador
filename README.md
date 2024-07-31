@@ -3,6 +3,27 @@
 
 Challenge de la etapa "Principiante en Programacion" en ONE G7.
 
+<!-- titulo del proyecto -->
+# One G7 - Challenge
+
+<!-- insignias del repositorio -->
+![GitHub repo size](https://img.shields.io/github/repo-size/carlosferreyra/alura-challenge)
+![GitHub](https://img.shields.io/github/license/carlosferreyra/alura-challenge)
+![GitHub last commit](https://img.shields.io/github/last-commit/carlosferreyra/alura-challenge)
+![GitHub top language](https://img.shields.io/github/languages/top/carlosferreyra/alura-challenge)
+![GitHub language count](https://img.shields.io/github/languages/count/carlosferreyra/alura-challenge)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/carlosferreyra/alura-challenge)
+![GitHub issues](https://img.shields.io/github/issues-raw/carlosferreyra/alura-challenge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/carlosferreyra/alura-challenge)
+![GitHub forks](https://img.shields.io/github/forks/carlosferreyra/alura-challenge)
+![GitHub stars](https://img.shields.io/github/stars/carlosferreyra/alura-challenge)
+![GitHub watchers](https://img.shields.io/github/watchers/carlosferreyra/alura-challenge)
+![GitHub contributors](https://img.shields.io/github/contributors/carlosferreyra/alura-challenge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/carlosferreyra/alura-challenge)
+![GitHub issues by-label](https://img.shields.io/github/issues-raw/carlosferreyra/alura-challenge/bug)
+
+
+
 <!-- tabla de contenidos -->
 ## Tabla de Contenidos
 - [Descripción](#descripción)
